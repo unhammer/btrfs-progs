@@ -34,7 +34,7 @@ extents, backrefrences, missing extents of inodes, directory and inode
 connectivity etc.
 
 The amount of memory required can be high, depending on the size of the
-filesystem, smililarly the run time.
+filesystem, similarly the run time.
 
 SAFE OR ADVISORY OPTIONS
 ------------------------
@@ -48,8 +48,8 @@ This can be combined with '--super' if some of the superblocks are damaged.
 verify checksums of data blocks
 +
 This expects that the filesystem is otherwise
-OK, so this is basically and offline 'scrub' but does not repair data from
-spare coipes.
+OK, so this is basically an offline 'scrub' but does not repair data from
+spare copies.
 
 --chunk-root <bytenr>::
 use the given offset 'bytenr' for the chunk tree root
